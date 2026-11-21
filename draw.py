@@ -6,8 +6,9 @@ v8 keeps the restored first-v5 design (red banner headline, stat badge and
 source caption inside each hero picture, coloured tag strips, real-continent
 map; list shifted left so stories 14-28 never touch 29-43) and fixes the
 hero cards: they are 186px tall now, so the third body line of stories 1-3
-ends 14px above the bottom border instead of touching it. The small cards
-and the map/list section move down to match."""
+ends 14px above the bottom border instead of touching it (measured: in the
+172px card the last body line ended at y=172, exactly on the border, 0px
+clearance). The small cards and the map/list section move down to match."""
 import os
 from PIL import Image, ImageDraw, ImageFont
 
